@@ -134,15 +134,16 @@ t.delete(99)
 print("printing inOrder")
 t.printInOrden()
 
-print("------------------")
+print("Trying another tree")
 p=BinaryTree()
 p.insert(90)
 p.insert(80)
 p.insert(70)
 p.printInOrden()
 
-print("------------------")
+print("Deleting 80")
 p.delete(80)
+print("printing inorder to check")
 p.printInOrden()
 
 
